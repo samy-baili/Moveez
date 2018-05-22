@@ -10,12 +10,6 @@ Go to **Settings** -> **Security** -> **Enable Unknown Sources**<br/>
 
 Click [**HERE**](https://www.dropbox.com/s/uiu48px6fls89c0/app-release-unsigned.apk?dl=0) to download the APK
 
-## Demo
-
-<p align="center">
-  <img src="/ui/demo_app.gif" width="400"/>
-</p>
-
 ## Libraries
 
 * [Realm](https://github.com/realm/realm-java) - Mobile database
@@ -25,4 +19,9 @@ Click [**HERE**](https://www.dropbox.com/s/uiu48px6fls89c0/app-release-unsigned.
 * [Gson](https://github.com/google/gson) - Serialization / Deserialization library
 * [Android-Iconics](https://github.com/mikepenz/Android-Iconics) - Font icons library
 
+## Demo
+
+<p align="center">
+  <img src="/ui/demo_app.gif" width="400"/>
+</p>
 
