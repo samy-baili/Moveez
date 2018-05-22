@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Moveez</string>
+
+    <string name="spinner_title_menu_item">Years</string>
+
+    <string name="backdrop_image_content_description">Banner</string>
+
+    <string name="poster_image_content_description">Poster</string>
+
+    <string name="vote_average_format">%s/10</string>
+
+    <string name="title_overview_detail_movie_label">Synopsys:</string>
+
+    <string name="network_error_message">Please verify your network connection and try again</string>
+
+    <string name="year_default_value">2018</string>
+</resources>

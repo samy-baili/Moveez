@@ -1,0 +1,58 @@
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+    }
+}
+
+ext {
+    applicationId = 'com.moviedb.android.moviedb'
+
+    minSdkVersion = 21
+    targetSdkVersion = 27
+
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.3'
+
+    versionCode = 1
+    versionName = "1.0"
+
+
+
+    /*************** DEPENDENCY VERSION ***************/
+
+    supportLibraryVersion = '27.1.1'
+    retrofitLibraryVersion = '2.4.0'
+    realmLibraryVersion = '5.1.0'
+    realmAdapterLibraryVersion = '3.0.0'
+    glideLibraryVersion = '4.7.1'
+    iconicLibraryVersion = '3.0.3@aar'
+    materialTypefaceLibraryVersion = '3.0.1.2.original@aar'
+    junitLibraryVersion = '4.12'
+    expressoLibraryVersion = '3.0.2'
+    supportTestLibraryVersion = '1.0.2'
+
+
+
+    /*************** BUILD TYPE ***************/
+
+    apiDebugBaseUrl = 'http://api-themoviedb-org-8ozqwb15y9ft.runscope.net/3/'
+    apiReleaseBaseUrl = 'http://api.themoviedb.org/3/'
+    movieApiKey = '7720fe6d9ee65d6d99acb37ece7a9e41'
+
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

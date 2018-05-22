@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/movie_card_height"
+    android:foreground="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/backdrop_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/backdrop_image_content_description"
+        android:scaleType="fitStart"
+        android:foreground="@color/banner_black_overlay"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/movie_card_bottom_line_height"
+        android:background="?android:attr/colorPrimary"
+        android:layout_gravity="bottom"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:padding="@dimen/general_app_space">
+        
+        <ImageView
+            android:id="@+id/poster_image_view"
+            android:layout_width="@dimen/poster_card_width"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/poster_image_content_description"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/general_app_space"
+            android:elevation="@dimen/poster_movie_card_elevation"
+            android:scaleType="fitEnd"/>
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_above="@+id/overview_text_view"
+            android:layout_alignStart="@+id/overview_text_view"/>
+
+        <TextView
+            android:id="@+id/overview_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/overview_movie_card_bottom_line_height"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/poster_image_view"/>
+
+        <com.moviedb.android.moviedb.view.ui.IconicLabelView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iconics_label_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            app:iconFont="@string/star_font_picto"
+            app:iconSize="24sp"
+            app:labelSize="18sp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="star_font_picto">{gmd-star}</string>
+
+    <string name="thumbs_up_down_font_picto">{gmd-thumbs-up-down}</string>
+
+    <string name="data_range_font_picto">{gmd-date-range}</string>
+
+    <string name="language_font_picto">{gmd-language}</string>
+
+</resources>

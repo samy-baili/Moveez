@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2e302e</color>
+    <color name="colorPrimaryDark">#202120</color>
+    <color name="colorAccent">#5EB35C</color>
+
+    <color name="banner_black_overlay">#50000000</color>
+    <color name="window_background_color">#484b48</color>
+    <color name="window_background_alpha_color">#9b484b48</color>
+</resources>
