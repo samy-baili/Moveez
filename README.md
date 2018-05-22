@@ -6,7 +6,7 @@ Movies are **stored** in local in order to be accessible offline and **filtered*
 ## Installation
 
 Before installing the apk be sure to enable the [Unknown Sources](https://www.androidcentral.com/unknown-sources) of your device.<br/>
-Go to **Settings** -> **Security** -> **Enable Unknown Sources**,br/>
+Go to **Settings** -> **Security** -> **Enable Unknown Sources**<br/>
 
 Click [**HERE**](https://www.dropbox.com/s/uiu48px6fls89c0/app-release-unsigned.apk?dl=0) to download the APK
 
